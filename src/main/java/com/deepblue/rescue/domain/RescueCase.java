@@ -50,6 +50,10 @@ public class RescueCase {
         animal.setRescueCase(this);
     }
 
+    public void changeStatus(RescueStatus newStatus) {
+        this.status = newStatus;
+    }
+
     public Long getId() {
         return id;
     }
